@@ -19,4 +19,5 @@ const client = new discord.Client()
 const config = require("./config.json");
 const prefix = (config.prefix)
 
+//Bot Login\\
 client.login(config.token)
